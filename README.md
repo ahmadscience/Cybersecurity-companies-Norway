@@ -1,10 +1,10 @@
 # Cybersecurity and information security companies in Norway
 
 [![validate](https://github.com/whatsdd/Cybersecurity-companies-Norway/actions/workflows/validate.yml/badge.svg)](https://github.com/whatsdd/Cybersecurity-companies-Norway/actions/workflows/validate.yml)
-[![companies](https://img.shields.io/badge/companies-87-blue)](#with-a-physical-office-in-norway)
-[![in-house%20staff%20counts](https://img.shields.io/badge/in--house%20staff%20counts-29-green)](#with-a-physical-office-in-norway)
+[![companies](https://img.shields.io/badge/companies-88-blue)](#with-a-physical-office-in-norway)
+[![in-house%20staff%20counts](https://img.shields.io/badge/in--house%20staff%20counts-30-green)](#with-a-physical-office-in-norway)
 [![confirmed](https://img.shields.io/badge/confirmed%20by%20the%20company%20or%20a%20named%20person-none%20yet-lightgrey)](#how-to-read-the-columns)
-[![last updated](https://img.shields.io/badge/last%20updated-2026-09-22-green)](#how-this-list-is-maintained)
+[![last updated](https://img.shields.io/badge/last%20updated-2026-10-13-green)](#how-this-list-is-maintained)
 [![license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey)](LICENSE)
 
 > **Started in 2023 by [Ahmad Abdur Rehman](https://ahmad.science/).** The original list covered
@@ -26,7 +26,7 @@ response, cloud and OT security, identity and access, forensics, GRC, privacy an
 Two things make it useful rather than just long. First, every row says how many **in-house security
 staff** the company has, or that nobody has established it, because a lot of Norwegian security work is
 sold by companies that subcontract it to somebody else. Second, every row carries **capability tags**
-so a buyer can filter for what they actually need instead of reading 87 company blurbs.
+so a buyer can filter for what they actually need instead of reading 88 company blurbs.
 
 The list comes first and the reasoning follows: the ordering rules, the caveats and the AI disclosure
 are further down this page.
@@ -35,19 +35,19 @@ are further down this page.
 
 | | | 
 |---|---|
-| Companies listed | **87** |
-| In-house security staff counts known | **29** |
+| Companies listed | **88** |
+| In-house security staff counts known | **30** |
 | Of those, confirmed (published or attested first-hand) | **0** (0 published by the company, 0 attested) |
-| Labelled estimates, nobody standing behind them | **28** |
+| Labelled estimates, nobody standing behind them | **29** |
 | Staff count still unknown | **58** |
-| Delivering with their own staff | **80** (plus 1 mixed) |
+| Delivering with their own staff | **81** (plus 1 mixed) |
 | Sourced through a partner network | **4** |
-| With an office in Norway | **81** |
-| With a confirmed Norwegian company registration | **79** |
+| With an office in Norway | **82** |
+| With a confirmed Norwegian company registration | **80** |
 | Publishing their own headcount | **13** |
-| With any headcount figure (theirs or the registry's) | **68** |
-| Capability tags in use | **43** (482 tag links) |
-| Last updated | **2026-09-22** |
+| With any headcount figure (theirs or the registry's) | **69** |
+| Capability tags in use | **44** (507 tag links) |
+| Last updated | **2026-10-13** |
 
 ## How to read the columns
 
@@ -120,6 +120,7 @@ are further down this page.
 | **FM Cyber Security**<br><sub>FM Cybersecurity AS</sub><br>[fmcybersecurity.com](https://fmcybersecurity.com) | **7+** <sub>estimated</sub> | 7 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Small Oslo MSSP delivering vendor-backed managed detection and response.<br><sub>SOC / MDR · Incident response · Threat intelligence <sub>+2</sub></sub> | 934418840<br><sub>founded 2024</sub> | 2026-09-22 |
 | **Xlent Cyber Security**<br><sub>Xlent Cyber Security AS</sub><br>[www.xlent.no](https://www.xlent.no) | **6+** <sub>estimated</sub> | 550 (site)<br><sub>registry: 6</sub> | Yes (Oslo) | in-house | Norwegian arm of the Xlent group: security advisory and consultants on assignment.<br><sub>Security audit · Cloud security · Compliance <sub>+2</sub></sub> | 931938142<br><sub>founded 2023</sub> | 2026-09-22 |
 | **Binary Security**<br><sub>Binary Security AS · formerly Binary Security B AS</sub><br>[www.binarysecurity.no](https://www.binarysecurity.no) | **5+** <sub>estimated</sub> | 5 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Small offensive house doing penetration testing, red teaming and cloud security reviews.<br><sub>Penetration testing · Red teaming · Purple teaming <sub>+3</sub></sub> | 933452212<br><sub>founded 2024</sub> | 2026-09-22 |
+| **Digital Trust**<br><sub>Digital Trust AS</sub><br>[digital-trust.no](https://digital-trust.no) | **4+** <sub>estimated</sub> | 0 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | A boutique cybersecurity consultancy and security software vendor headquartered in Norway.<br><sub>Penetration testing · Red teaming · Purple teaming <sub>+22</sub></sub> | 931464191<br><sub>founded 2023</sub> | 2026-10-13 |
 | **Sopra Steria**<br><sub>Sopra Steria AS · formerly Bull AS, Integris AS and 1 more</sub><br>[www.soprasteria.no](https://www.soprasteria.no) | ?? | 3,700 (site)<br><sub>registry: 3,671</sub> | Yes (Oslo) | in-house | Large Norwegian IT consultancy with a security practice across testing, audits and incident response.<br><sub>Penetration testing · Vulnerability assessment · Security audit <sub>+4</sub></sub> | 910909088<br><sub>founded 1958</sub> | 2026-09-22 |
 | **DNV Cyber**<br><sub>DNV AS · formerly Det norske Veritas Classification A/S, DET Norske Veritas AS and 1 more</sub><br>[www.dnv.com/cyber](https://www.dnv.com/cyber/) | ?? | 2,341 (registry)<br><sub>registry</sub> | Yes (Høvik) | in-house | DNV Cyber, which absorbed the Nixu consultancy: IT and OT cyber security services, risk and regulatory work for industry, maritime, energy and defence.<br><sub>Penetration testing · Vulnerability assessment · SOC / MDR <sub>+5</sub></sub> | 945748931<br><sub>founded 1988</sub> | 2026-09-22 |
 | **PwC Norge**<br><sub>Pricewaterhousecoopers AS</sub><br>[www.pwc.com](https://www.pwc.com) | ?? | 1,917 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Assurance and advisory house with cyber risk, testing, privacy and incident response teams.<br><sub>Penetration testing · Vulnerability assessment · Security audit <sub>+4</sub></sub> | 987009713<br><sub>founded 2004</sub> | 2026-09-22 |
