@@ -1,0 +1,74 @@
+{
+  "id": "digital-trust",
+  "name": "Digital Trust",
+  "legal_name": "DIGITAL TRUST AS",
+  "website": "https://digital-trust.no",
+  "category": "norwegian",
+  "org_nr": "931464191",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "security_staff": 4,
+  "security_staff_basis": "estimate",
+  "security_staff_is_minimum": true,
+  "security_staff_scope": "whole-company",
+  "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+  "security_staff_note": "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor.",
+  "brreg_employees": 0,
+  "brreg_employees_as_of": "2026-10-13",
+  "delivery": "in-house",
+  "delivery_source": "https://digital-trust.no",
+  "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
+  "specialty": "Boutique cybersecurity consultancy and security software vendor headquartered in Norway",
+  "capabilities": [
+    "penetration-testing",
+    "red-teaming",
+    "purple-teaming",
+    "social-engineering",
+    "vulnerability-assessment",
+    "ai-security",
+    "application-security",
+    "code-review",
+    "devsecops",
+    "security-architecture",
+    "soc",
+    "incident-response",
+    "crisis-management",
+    "digital-forensics",
+    "data-security",
+    "cloud-security",
+    "security-audit",
+    "compliance",
+    "risk-management",
+    "privacy-gdpr",
+    "nis2-dora",
+    "vciso",
+    "security-training",
+    "awareness-training",
+    "tabletop-exercises"
+  ],
+  "founded": "2023-05-05",
+  "verification": "verified",
+  "last_verified": "2026-10-13",
+  "verified_by": "@michael-markevich",
+  "sources": [
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931464191",
+      "type": "registry",
+      "checked": "2026-10-13"
+    },
+    {
+      "url": "https://digital-trust.no",
+      "type": "company-site",
+      "checked": "2026-10-13"
+    },
+    {
+      "url": "https://thecyberhive.eu/vendors/digital-trust",
+      "type": "estimate",
+      "checked": "2026-10-13",
+      "note": "The ECSO catalogue of the European security tools and services"
+    }
+
+  ]
+}
