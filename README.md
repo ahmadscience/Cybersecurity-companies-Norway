@@ -3,8 +3,8 @@
 [![validate](https://github.com/ahmadscience/Cybersecurity-companies-Norway/actions/workflows/validate.yml/badge.svg)](https://github.com/ahmadscience/Cybersecurity-companies-Norway/actions/workflows/validate.yml)
 [![companies](https://img.shields.io/badge/companies-88-blue)](#with-a-physical-office-in-norway)
 [![in-house%20staff%20counts](https://img.shields.io/badge/in--house%20staff%20counts-30-green)](#with-a-physical-office-in-norway)
-[![confirmed](https://img.shields.io/badge/confirmed%20by%20the%20company%20or%20a%20named%20person-1-green)](#how-to-read-the-columns)
-[![last updated](https://img.shields.io/badge/last%20updated-2026--10--13-green)](#how-this-list-is-maintained)
+[![confirmed](https://img.shields.io/badge/confirmed%20by%20the%20company%20or%20a%20named%20person-2-green)](#how-to-read-the-columns)
+[![last updated](https://img.shields.io/badge/last%20updated-2026--10--28-green)](#how-this-list-is-maintained)
 [![license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey)](LICENSE)
 
 > **Started in 2023 by [Ahmad Abdur Rehman](https://ahmad.science/).** The original list covered
@@ -37,8 +37,8 @@ are further down this page.
 |---|---|
 | Companies listed | **88** |
 | In-house security staff counts known | **30** |
-| Of those, confirmed (published or attested first-hand) | **1** (0 published by the company, 1 attested) |
-| Labelled estimates, nobody standing behind them | **28** |
+| Of those, confirmed (published or attested first-hand) | **2** (0 published by the company, 2 attested) |
+| Labelled estimates, nobody standing behind them | **27** |
 | Staff count still unknown | **58** |
 | Delivering with their own staff | **81** (plus 1 mixed) |
 | Sourced through a partner network | **4** |
@@ -47,7 +47,7 @@ are further down this page.
 | Publishing their own headcount | **13** |
 | With any headcount figure (theirs or the registry's) | **69** |
 | Capability tags in use | **44** (507 tag links) |
-| Last updated | **2026-10-13** |
+| Last updated | **2026-10-28** |
 
 ## How to read the columns
 
@@ -92,6 +92,7 @@ are further down this page.
 
 | Company | In-house security staff | Employees | Office in Norway | Delivery | Speciality and capabilities | Org. no. | Last updated |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Experis**<br><sub>Experis AS · formerly ELAN Computing AS, ELAN IT Resource AS</sub><br>[www.experis.no](https://www.experis.no) | **40+** <sub>attested</sub> | 700 (site)<br><sub>registry: 402</sub> | Yes (Oslo) | in-house | IT consultancy whose security unit covers testing, training and ISO 27001 work.<br><sub>Penetration testing · Security training · Compliance <sub>+2</sub></sub> | 982683955<br><sub>founded 2000</sub> | 2026-10-28 |
 | **Digital Trust**<br><sub>Digital Trust AS</sub><br>[digital-trust.no](https://digital-trust.no) | **4+** <sub>attested</sub> | 0 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | A boutique cybersecurity consultancy and security software vendor headquartered in Norway.<br><sub>Penetration testing · Red teaming · Purple teaming <sub>+22</sub></sub> | 931464191<br><sub>founded 2023</sub> | 2026-10-13 |
 | **Mnemonic**<br><sub>Mnemonic AS</sub><br>[www.mnemonic.no](https://www.mnemonic.no) | **391+** <sub>estimated</sub> | 391 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Independent Norwegian security house: offensive testing, 24/7 MDR and threat intelligence.<br><sub>Penetration testing · Red teaming · Vulnerability assessment <sub>+10</sub></sub> | 982089549<br><sub>founded 2000</sub> | 2026-09-22 |
 | **Netsecurity**<br><sub>Netsecurity AS · formerly 1-NET Security AS</sub><br>[www.netsecurity.no](https://www.netsecurity.no) | **172+** <sub>estimated</sub> | 170 (site)<br><sub>registry: 172</sub> | Yes (Oslo) | in-house | Norwegian security house with one of the largest SOCs in the Nordics and its own red team.<br><sub>SOC / MDR · Incident response · Red teaming <sub>+6</sub></sub> | 993856886<br><sub>founded 2009</sub> | 2026-09-22 |
@@ -101,7 +102,6 @@ are further down this page.
 | **Sicra**<br><sub>Sicra AS · formerly WR Start UP 540 AS, Sicra 2 AS</sub><br>[sicra.no](https://sicra.no) | **54+** <sub>estimated</sub> | 54 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Norwegian IT operations house with a SOC service for monitoring and response.<br><sub>SOC / MDR · Incident response · Cloud security <sub>+2</sub></sub> | 932538067<br><sub>founded 2023</sub> | 2026-09-22 |
 | **nLogic**<br><sub>Nlogic AS · formerly Nlogic II AS</sub><br>[www.nlogic.no](https://www.nlogic.no) | **49+** <sub>estimated</sub> | 49 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Norwegian cloud and security provider with 24/7 monitoring and incident response.<br><sub>SOC / MDR · Incident response · Cloud security <sub>+3</sub></sub> | 821678102<br><sub>founded 2018</sub> | 2026-09-22 |
 | **Orange Cyberdefense**<br><sub>Orange Cyberdefense Norway AS · formerly Gateway Security AS, Securelink Norway AS</sub><br>[www.orangecyberdefense.com/no](https://www.orangecyberdefense.com/no) | **43+** <sub>estimated</sub> | 43 (registry)<br><sub>registry</sub> | Yes (Lysaker) | in-house | European security provider with a Norwegian SOC, incident response and pentest team.<br><sub>SOC / MDR · Incident response · Penetration testing <sub>+5</sub></sub> | 981548280<br><sub>founded 2000</sub> | 2026-09-22 |
-| **Experis**<br><sub>Experis AS · formerly ELAN Computing AS, ELAN IT Resource AS</sub><br>[www.experis.no](https://www.experis.no) | **40+** <sub>estimated</sub> | 700 (site)<br><sub>registry: 402</sub> | Yes (Oslo) | in-house | IT consultancy whose security unit covers testing, training and ISO 27001 work.<br><sub>Penetration testing · Security training · Compliance <sub>+2</sub></sub> | 982683955<br><sub>founded 2000</sub> | 2026-09-22 |
 | **Gritera Security**<br><sub>Gritera Security AS</sub><br>[gritera.com](https://gritera.com/) | **31+** <sub>estimated</sub> | 31 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Information security advisory house: security governance and GRC, identity and access management, technical security, and crisis management.<br><sub>Risk management · Compliance · NIS2 / DORA readiness <sub>+3</sub></sub> | 832332402<br><sub>founded 2023</sub> | 2026-09-22 |
 | **Ivolv**<br><sub>Ivolv AS</sub><br>[ivolv.no](https://ivolv.no) | **24+** <sub>estimated</sub> | 24 (registry)<br><sub>registry</sub> | Yes (Stavanger) | in-house | Rogaland IT and cyber security house: managed security services and advisory.<br><sub>SOC / MDR · Incident response · Cloud security <sub>+3</sub></sub> | 927371022<br><sub>founded 2021</sub> | 2026-09-22 |
 | **Triple-S**<br><sub>TRIPLE-S AS · formerly TRIPLE-S AS Industry Automation, TRIPLE-S AS and 1 more</sub><br>[www.triple-s.no](https://www.triple-s.no) | **23+** <sub>estimated</sub> | 23 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Small specialist house for industrial control system and OT security.<br><sub>OT / ICS security · Network security · Risk management <sub>+2</sub></sub> | 958971184<br><sub>founded 1990</sub> | 2026-09-22 |
@@ -196,6 +196,8 @@ Company names change, firms get acquired, and vendors move in and out of the Nor
 records the rename history from the registry, so an old name in someone's procurement notes can still be
 traced to today's legal entity. Examples currently in the data:
 
+- **Experis**: *ELAN COMPUTING AS → ELAN IT RESOURCE AS → EXPERIS AS*
+  - Registry history: ELAN COMPUTING AS → ELAN IT RESOURCE AS → EXPERIS AS. The in-house security staff figure is attested first-hand by the list maintainer, who works at Experis (a disclosed conflict of interest): 40 or more across the security disciplines, which supersedes the four penetration testers counted first-hand in the pentest editions. The company publishes no security staff figure.
 - **Netsecurity**: *1-NET SECURITY AS → NETSECURITY AS*
   - Registry history: 1-NET SECURITY AS → NETSECURITY AS.
 - **Defendable**: *BESEC AS → DEFENDABLE AS*
@@ -206,8 +208,6 @@ traced to today's legal entity. Examples currently in the data:
 - **nLogic**: *NLOGIC II AS → NLOGIC AS*
 - **Orange Cyberdefense**: *GATEWAY SECURITY AS → SECURELINK NORWAY AS → ORANGE CYBERDEFENSE NORWAY AS*
   - Registry history: SECURELINK NORWAY AS → GATEWAY SECURITY AS → ORANGE CYBERDEFENSE NORWAY AS.
-- **Experis**: *ELAN COMPUTING AS → ELAN IT RESOURCE AS → EXPERIS AS*
-  - Registry history: ELAN COMPUTING AS → ELAN IT RESOURCE AS → EXPERIS AS. The in-house security staff figure is a guarded estimate by the maintainer, who works at Experis: 40 or more across the security disciplines, which supersedes the four penetration testers counted first-hand in the pentest editions. The company publishes no security staff figure.
 - **Triple-S**: *TRIPLE-S AS INDUSTRY AUTOMATION → TRIPLE-S AS → GOODTECH PRODUCTS AS → TRIPLE-S AS*
 - **Agenda Risk**: *THAYSEN CONSULTING AS → AGENDA RISK AS*
   - Registry history: THAYSEN CONSULTING AS → AGENDA RISK AS.

@@ -10,11 +10,11 @@
     "Oslo"
   ],
   "security_staff": 40,
-  "security_staff_basis": "estimate",
+  "security_staff_basis": "attestation",
   "security_staff_is_minimum": true,
   "security_staff_scope": "security-only",
-  "security_staff_source": "https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
-  "security_staff_note": "In-house security staff: 40 or more, across the consultancy's security disciplines. Guarded estimate by the list maintainer, who works at Experis, and not published by the company. It supersedes the narrower first-hand count of four penetration testers carried by the pentest editions.",
+  "security_staff_source": "https://www.linkedin.com/in/ahmadscience/",
+  "security_staff_note": "In-house security staff: 40 or more, across the consultancy's security disciplines. Attested first-hand by Ahmad Abdur Rehman (@ahmadscience), who works at Experis and maintains this list; not published by the company. It supersedes the narrower first-hand count of four penetration testers carried by the pentest editions.",
   "employees_total": 700,
   "employees_source": "https://www.experis.no",
   "employees_note": "stated as \"more than 700 consultants and partners\"",
@@ -37,9 +37,9 @@
     "ELAN COMPUTING AS",
     "ELAN IT RESOURCE AS"
   ],
-  "notes": "Registry history: ELAN COMPUTING AS -> ELAN IT RESOURCE AS -> EXPERIS AS. The in-house security staff figure is a guarded estimate by the maintainer, who works at Experis: 40 or more across the security disciplines, which supersedes the four penetration testers counted first-hand in the pentest editions. The company publishes no security staff figure.",
+  "notes": "Registry history: ELAN COMPUTING AS -> ELAN IT RESOURCE AS -> EXPERIS AS. The in-house security staff figure is attested first-hand by the list maintainer, who works at Experis (a disclosed conflict of interest): 40 or more across the security disciplines, which supersedes the four penetration testers counted first-hand in the pentest editions. The company publishes no security staff figure.",
   "verification": "verified",
-  "last_verified": "2026-09-22",
+  "last_verified": "2026-10-28",
   "verified_by": "@ahmadscience",
   "sources": [
     {
@@ -65,10 +65,10 @@
       "checked": "2026-09-22"
     },
     {
-      "url": "https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
-      "type": "estimate",
-      "checked": "2026-09-22",
-      "note": "In-house security staff: 40 or more. Guarded estimate by the list maintainer, who works at Experis; not published by the company."
+      "url": "https://www.linkedin.com/in/ahmadscience/",
+      "type": "attestation",
+      "checked": "2026-10-28",
+      "note": "In-house security staff of 40 or more attested by Ahmad Abdur Rehman, who works at Experis and maintains this list (disclosed conflict of interest)."
     }
   ]
 }
