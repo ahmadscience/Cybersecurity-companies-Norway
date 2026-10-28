@@ -11,7 +11,7 @@ Generated from [`data/companies/`](../data/companies) by `scripts/build.py`. Do 
 **Attribution (required by the licence):** this dataset was started in 2023 by
 [Ahmad Abdur Rehman](https://ahmad.science/) ([LinkedIn](https://www.linkedin.com/in/ahmadscience/))
 as a list of penetration testing companies in Norway, and is published under [CC BY 4.0](../LICENSE).
-If you reuse it, credit the author and link to <https://github.com/whatsdd/Cybersecurity-companies-Norway>.
+If you reuse it, credit the author and link to <https://github.com/ahmadscience/Cybersecurity-companies-Norway>.
 
 Field notes: `security_staff` is `null` when no in-house count has been established, null means
 "not stated" and never zero; whenever it is set, `security_staff_basis` says whether the figure is
@@ -21,4 +21,4 @@ guarded estimate) or `crowd-platform` (a researcher pool, not staff). Registry h
 `partner-network` or `unknown`. `capabilities` are the company's own tags and `specialty` is a
 plain-language summary. `office_in_norway` is `false` only when no Norwegian entity was found.
 
-Dataset version: 2026-09-22.
+Dataset version: 2026-10-13.

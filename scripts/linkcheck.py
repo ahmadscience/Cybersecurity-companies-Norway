@@ -33,7 +33,7 @@ COMPANY_DIR = ROOT / "data" / "companies"
 
 USER_AGENT = (
     "Mozilla/5.0 (compatible; Cybersecurity-companies-Norway-linkcheck/1.0; "
-    "+https://github.com/whatsdd/Cybersecurity-companies-Norway)"
+    "+https://github.com/ahmadscience/Cybersecurity-companies-Norway)"
 )
 TIMEOUT = 25
 

@@ -1,10 +1,10 @@
-generated: "2026-09-22"
-last_verified: "2026-09-22"
-count: 87
+generated: "2026-10-13"
+last_verified: "2026-10-13"
+count: 88
 license: CC BY 4.0
 attribution: Started in 2023 by Ahmad Abdur Rehman (https://ahmad.science/, https://www.linkedin.com/in/ahmadscience/) as a list of penetration testing companies in Norway. Continued as an open dataset covering cybersecurity and information security companies.
-source_repository: https://github.com/whatsdd/Cybersecurity-companies-Norway
-methodology: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md
+source_repository: https://github.com/ahmadscience/Cybersecurity-companies-Norway
+methodology: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md
 notes:
   - security_staff is null when no in-house count has been established; null does not mean zero.
   - "whenever security_staff is set, security_staff_basis says what kind of claim it is: company-site (published by the company), attestation (vouched for first-hand), estimate (the maintainer's guarded estimate, the weakest basis) or crowd-platform (a researcher pool, not staff)."
@@ -14,6 +14,72 @@ notes:
   - office_in_norway is false only when no Norwegian entity was found, not when staff are absent.
   - brreg_* fields come from Enhetsregisteret, the Norwegian register of legal entities.
 companies:
+  - id: digital-trust
+    name: Digital Trust
+    legal_name: DIGITAL TRUST AS
+    website: https://digital-trust.no
+    category: norwegian
+    org_nr: "931464191"
+    office_in_norway: true
+    office_cities:
+      - Oslo
+    security_staff: 4
+    security_staff_basis: attestation
+    security_staff_is_minimum: true
+    security_staff_scope: whole-company
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/pull/2
+    security_staff_note: "Attested by Michael Markevich (@michael-markevich), founder and CEO of Digital Trust AS, who submitted this row and declared the conflict of interest. Enhetsregisteret lists 0 employees, so the figure rests on the founder's word rather than the registry."
+    brreg_employees: 0
+    brreg_employees_as_of: "2026-10-13"
+    delivery: in-house
+    delivery_source: https://digital-trust.no
+    delivery_note: "Delivery model recorded from the company's own description of how it staffs the work."
+    specialty: A boutique cybersecurity consultancy and security software vendor headquartered in Norway.
+    capabilities:
+      - penetration-testing
+      - red-teaming
+      - purple-teaming
+      - social-engineering
+      - vulnerability-assessment
+      - ai-security
+      - application-security
+      - code-review
+      - devsecops
+      - security-architecture
+      - soc
+      - incident-response
+      - crisis-management
+      - digital-forensics
+      - data-security
+      - cloud-security
+      - security-audit
+      - compliance
+      - risk-management
+      - privacy-gdpr
+      - nis2-dora
+      - vciso
+      - security-training
+      - awareness-training
+      - tabletop-exercises
+    founded: "2023-05-05"
+    verification: verified
+    last_verified: "2026-10-13"
+    verified_by: "@michael-markevich"
+    sources:
+      - url: https://data.brreg.no/enhetsregisteret/api/enheter/931464191
+        type: registry
+        checked: "2026-10-13"
+      - url: https://digital-trust.no
+        type: company-site
+        checked: "2026-10-13"
+      - url: https://thecyberhive.eu/vendors/digital-trust
+        type: other
+        checked: "2026-10-13"
+        note: The ECSO catalogue of the European security tools and services
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/pull/2
+        type: attestation
+        checked: "2026-10-13"
+        note: In-house security staff of 4 attested by Michael Markevich, founder and CEO (declared conflict of interest).
   - id: mnemonic
     name: Mnemonic
     legal_name: MNEMONIC AS
@@ -27,8 +93,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 391
     brreg_employees_as_of: "2026-09-14"
     delivery: in-house
@@ -52,7 +118,7 @@ companies:
     founded: "2000-05-05"
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/982089549
         type: registry
@@ -68,10 +134,10 @@ companies:
       - url: https://www.mnemonic.no
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: netsecurity
     name: Netsecurity
     legal_name: NETSECURITY AS
@@ -85,8 +151,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     employees_total: 170
     employees_source: https://www.netsecurity.no/om-oss
     employees_note: "stated as \"170+ ansatte\" across 7 offices"
@@ -116,7 +182,7 @@ companies:
     notes: "Registry history: 1-NET SECURITY AS -> NETSECURITY AS."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/993856886
         type: registry
@@ -132,10 +198,10 @@ companies:
       - url: https://www.netsecurity.no
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: defendable
     name: Defendable
     legal_name: DEFENDABLE AS
@@ -149,8 +215,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     employees_total: 100
     employees_source: https://www.defendable.no/about
     employees_note: "stated as \"around 100 people across Norway\""
@@ -178,7 +244,7 @@ companies:
     notes: "Registry history: BESEC AS -> DEFENDABLE AS. The company was spun out of BDO Cybersecurity and launched as an independent company in 2021."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/925880140
         type: registry
@@ -194,10 +260,10 @@ companies:
       - url: https://www.defendable.no
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: telenor-cyberdefence
     name: Telenor Cyberdefence
     legal_name: TELENOR CYBERDEFENCE AS
@@ -211,8 +277,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 88
     brreg_employees_as_of: "2026-09-14"
     delivery: in-house
@@ -235,7 +301,7 @@ companies:
     notes: "Listed as \"Watchcom (now Telenor Cyberdefence)\". Telenor acquired Watchcom, and this entity carries the rename history TELENOR CYBERDEFENSE AS -> TELENOR CYBERDEFENCE AS."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/932975424
         type: registry
@@ -251,10 +317,10 @@ companies:
       - url: https://www.telenorcyberdefence.com
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: promon
     name: Promon
     legal_name: PROMON AS
@@ -268,8 +334,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 75
     brreg_employees_as_of: "2026-08-12"
     delivery: in-house
@@ -285,7 +351,7 @@ companies:
     founded: "2006-01-11"
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/989480138
         type: registry
@@ -301,10 +367,10 @@ companies:
       - url: https://www.promon.no
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: sicra
     name: Sicra
     legal_name: SICRA AS
@@ -318,8 +384,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 54
     brreg_employees_as_of: "2026-09-14"
     delivery: in-house
@@ -337,7 +403,7 @@ companies:
       - SICRA 2 AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://sicra.no
         type: company-site
@@ -345,10 +411,10 @@ companies:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/932538067
         type: registry
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: nlogic
     name: nLogic
     legal_name: NLOGIC AS
@@ -362,8 +428,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 49
     brreg_employees_as_of: "2026-09-14"
     delivery: in-house
@@ -381,7 +447,7 @@ companies:
       - NLOGIC II AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.nlogic.no
         type: company-site
@@ -389,10 +455,10 @@ companies:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/821678102
         type: registry
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: orange-cyberdefense
     name: Orange Cyberdefense
     legal_name: ORANGE CYBERDEFENSE NORWAY AS
@@ -406,8 +472,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 43
     brreg_employees_as_of: "2026-06-13"
     delivery: in-house
@@ -432,7 +498,7 @@ companies:
     notes: "Registry history: SECURELINK NORWAY AS -> GATEWAY SECURITY AS -> ORANGE CYBERDEFENSE NORWAY AS."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/981548280
         type: registry
@@ -448,10 +514,10 @@ companies:
       - url: https://www.orangecyberdefense.com/no
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: experis
     name: Experis
     legal_name: EXPERIS AS
@@ -465,7 +531,7 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: security-only
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
     security_staff_note: "In-house security staff: 40 or more, across the consultancy's security disciplines. Guarded estimate by the list maintainer, who works at Experis, and not published by the company. It supersedes the narrower first-hand count of four penetration testers carried by the pentest editions."
     employees_total: 700
     employees_source: https://www.experis.no
@@ -490,7 +556,7 @@ companies:
     notes: "Registry history: ELAN COMPUTING AS -> ELAN IT RESOURCE AS -> EXPERIS AS. The in-house security staff figure is a guarded estimate by the maintainer, who works at Experis: 40 or more across the security disciplines, which supersedes the four penetration testers counted first-hand in the pentest editions. The company publishes no security staff figure."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/982683955
         type: registry
@@ -506,7 +572,7 @@ companies:
       - url: https://www.experis.no
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
         note: "In-house security staff: 40 or more. Guarded estimate by the list maintainer, who works at Experis; not published by the company."
@@ -523,7 +589,7 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
     security_staff_note: "In-house security staff: 31 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, whose registered purpose is information security services only, so the whole payroll is security work."
     brreg_employees: 31
     brreg_employees_as_of: "2026-09-14"
@@ -542,7 +608,7 @@ companies:
     notes: Part of the Gritera group, alongside Gritera Advisory, Analytics and Quality; this is the entity that sells the security work, which is what makes its registry headcount usable as a guarded estimate.
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://gritera.com/en/services/information-security/
         type: company-site
@@ -556,7 +622,7 @@ companies:
         type: registry
         checked: "2026-09-22"
         note: "Registered purpose: services related to information security, including IT governance and cyber security"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
         note: "In-house security staff: 31 or more. Guarded estimate by the list maintainer; not published by the company."
@@ -573,8 +639,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 24
     brreg_employees_as_of: "2026-09-14"
     delivery: in-house
@@ -590,7 +656,7 @@ companies:
     founded: "2021-06-14"
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://ivolv.no
         type: company-site
@@ -598,10 +664,10 @@ companies:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/927371022
         type: registry
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: triple-s
     name: Triple-S
     legal_name: TRIPLE-S AS
@@ -615,8 +681,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 23
     brreg_employees_as_of: "2026-05-12"
     delivery: in-house
@@ -635,7 +701,7 @@ companies:
       - GOODTECH PRODUCTS AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.triple-s.no
         type: company-site
@@ -643,10 +709,10 @@ companies:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/958971184
         type: registry
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: agenda-risk
     name: Agenda Risk
     legal_name: AGENDA RISK AS
@@ -660,8 +726,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 18
     brreg_employees_as_of: "2026-09-14"
     delivery: in-house
@@ -682,7 +748,7 @@ companies:
     notes: "Registry history: THAYSEN CONSULTING AS -> AGENDA RISK AS."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/925206636
         type: registry
@@ -698,10 +764,10 @@ companies:
       - url: https://www.agendarisk.no
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: river-security
     name: River Security
     legal_name: RIVER SECURITY AS
@@ -715,8 +781,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 17
     brreg_employees_as_of: "2026-07-15"
     delivery: in-house
@@ -736,7 +802,7 @@ companies:
     notes: The in-house security staff figure is an estimate by the list author and is not published on the company site; the registry headcount for the Norwegian entity is 17, and the entity does security work only.
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/925178810
         type: registry
@@ -752,7 +818,7 @@ companies:
       - url: https://riversecurity.eu
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
         note: "In-house security staff: 17 or more. Estimated by the list maintainer, not published by the company."
@@ -769,8 +835,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 15
     brreg_employees_as_of: "2026-08-11"
     delivery: in-house
@@ -793,7 +859,7 @@ companies:
     notes: Trading as NORMA Cyber; the registry entity is NORDIC MARITIME CYBER RESILIENCE CENTRE AS (formerly NORWEGIAN MARITIME CYBER RESILIENCE CENTRE AS).
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/925216739
         type: registry
@@ -809,10 +875,10 @@ companies:
       - url: https://www.normacyber.no
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: semaphore
     name: Semaphore
     legal_name: SEMAPHORE CONSULTING PARTNERS AS
@@ -826,8 +892,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     employees_total: 20
     employees_source: https://www.semaphore.no
     employees_note: stated as just under 20 employees
@@ -853,7 +919,7 @@ companies:
     notes: Registry entity SEMAPHORE CONSULTING PARTNERS AS, Stabekk, whose former name was SCIO AS. A separate SEMAPHORE AS (org.nr 924505214, Oslo) also exists. Which one delivers the security testing in the list should be confirmed.
     verification: partial
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/989925970
         type: registry
@@ -869,10 +935,10 @@ companies:
       - url: https://www.semaphore.no
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: secure-practice
     name: Secure Practice
     legal_name: SECURE PRACTICE AS
@@ -886,8 +952,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 14
     brreg_employees_as_of: "2026-08-11"
     delivery: in-house
@@ -903,7 +969,7 @@ companies:
     founded: "2017-08-01"
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/919420197
         type: registry
@@ -919,10 +985,10 @@ companies:
       - url: https://securepractice.no
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: bsure
     name: Bsure
     legal_name: BSURE AS
@@ -936,7 +1002,7 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
     security_staff_note: "In-house security staff: 13 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work."
     brreg_employees: 13
     brreg_employees_as_of: "2026-05-11"
@@ -951,7 +1017,7 @@ companies:
     notes: "A Norwegian platform company rather than a consultancy: the delivery is software the customer runs, not consultants on site, and it is listed because identity visibility is the whole product rather than a feature of something else. Its own team builds, sells and supports it, and the entity is a security-only business, which is what makes the guarded estimate applicable."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.bsure.io/
         type: company-site
@@ -964,7 +1030,7 @@ companies:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/929419766
         type: registry
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
         note: "In-house security staff: 13 or more. Guarded estimate by the list maintainer; not published by the company."
@@ -981,8 +1047,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 11
     brreg_employees_as_of: "2026-07-15"
     delivery: in-house
@@ -1006,7 +1072,7 @@ companies:
     notes: "Listed as \"Fencenordic\"; the company now operates as Fence and this entity is the Norwegian legal entity (formerly FENCE DRIFT AS)."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/934279220
         type: registry
@@ -1022,10 +1088,10 @@ companies:
       - url: https://fence.no
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: o3c
     name: O3C
     legal_name: O3 CYBER AS
@@ -1039,7 +1105,7 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
     security_staff_note: "In-house security staff: 11 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work."
     brreg_employees: 11
     brreg_employees_as_of: "2026-09-14"
@@ -1060,13 +1126,13 @@ companies:
     notes: O3 CYBER AS is the operating company; O3C TOPCO AS (org.nr 938170894) is the holding entity.
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.o3c.no/
         type: company-site
         checked: "2026-09-22"
         note: Describes the practice as cloud, platform and AI security for Nordic enterprises and scale-ups, with platform security design, managed cloud security and work alongside client teams
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
         note: "In-house security staff: 11 or more. Guarded estimate by the list maintainer; not published by the company."
@@ -1085,7 +1151,7 @@ companies:
     security_staff: 10
     security_staff_basis: estimate
     security_staff_is_minimum: true
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
     security_staff_note: "In-house security staff: 10 or more. Estimated by the list maintainer, not published by the company."
     brreg_employees: 1422
     brreg_employees_as_of: "2026-09-14"
@@ -1107,7 +1173,7 @@ companies:
     notes: The in-house security staff figure is an estimate by the list author and is not published on the company site. EY is a large multi-service firm, so this figure is a fraction of its Norwegian headcount.
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/976389387
         type: registry
@@ -1123,7 +1189,7 @@ companies:
       - url: https://www.ey.com/no_no
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
         note: Estimated by the list maintainer (Ahmad Abdur Rehman) from market knowledge. EY publishes no security staff count, so this is a guarded estimate, labelled as one everywhere it appears.
@@ -1140,8 +1206,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 10
     brreg_employees_as_of: "2026-08-12"
     delivery: in-house
@@ -1156,7 +1222,7 @@ companies:
     founded: "2024-06-06"
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://shiftsecurity.no
         type: company-site
@@ -1164,10 +1230,10 @@ companies:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/933831922
         type: registry
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: indykite
     name: IndyKite
     legal_name: INDYKITE NORWAY AS
@@ -1181,7 +1247,7 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
     security_staff_note: "In-house security staff: 9 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work."
     brreg_employees: 9
     brreg_employees_as_of: "2026-03-11"
@@ -1196,7 +1262,7 @@ companies:
     notes: "A platform company with its engineering company in Oslo and the brand run from outside Norway, which is why it is grouped as international while the Norwegian entity is the one pinned. Identity and authorisation is the whole product, so the entity's registry headcount is usable as a guarded estimate."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.indykite.com/
         type: company-site
@@ -1205,7 +1271,7 @@ companies:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/926277340
         type: registry
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
         note: "In-house security staff: 9 or more. Guarded estimate by the list maintainer; not published by the company."
@@ -1222,7 +1288,7 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
     security_staff_note: "In-house security staff: 9 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work."
     brreg_employees: 9
     brreg_employees_as_of: "2026-07-15"
@@ -1242,7 +1308,7 @@ companies:
     notes: "Awareness training is the whole business, so the Norwegian entity's registry headcount is usable as a guarded estimate. The brand belongs to the Swedish group Junglemap AB; this row is the Norwegian company that sells and supports it here, and it is grouped as nordic for that reason."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.junglemap.no/
         type: company-site
@@ -1251,7 +1317,7 @@ companies:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/984590423
         type: registry
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
         note: "In-house security staff: 9 or more. Guarded estimate by the list maintainer; not published by the company."
@@ -1268,8 +1334,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 8
     brreg_employees_as_of: "2026-03-11"
     delivery: in-house
@@ -1286,7 +1352,7 @@ companies:
     notes: "Trading as Secure-NOK. Two related entities exist: SECURE-NOK AS (org.nr 924577002, this row) and SECURE-NOK TECHNOLOGY AS (org.nr 996501965, formerly named SECURE-NOK AS). Both are registered in Sandnes; the split between them should be confirmed."
     verification: partial
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/924577002
         type: registry
@@ -1302,10 +1368,10 @@ companies:
       - url: https://www.securenok.com
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: fm-cybersecurity
     name: FM Cyber Security
     legal_name: FM CYBERSECURITY AS
@@ -1319,8 +1385,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 7
     brreg_employees_as_of: "2026-02-12"
     delivery: in-house
@@ -1335,7 +1401,7 @@ companies:
     founded: "2024-10-27"
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://fmcybersecurity.com
         type: company-site
@@ -1343,10 +1409,10 @@ companies:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/934418840
         type: registry
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: xlent-cyber-security
     name: Xlent Cyber Security
     legal_name: XLENT CYBER SECURITY AS
@@ -1360,8 +1426,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     employees_total: 550
     employees_source: https://www.xlent.no
     employees_note: "group-wide: 550 employees in Norway and Sweden"
@@ -1380,7 +1446,7 @@ companies:
     founded: "2023-06-21"
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.xlent.no
         type: company-site
@@ -1388,10 +1454,10 @@ companies:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/931938142
         type: registry
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
-        note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
   - id: binary-security
     name: Binary Security
     legal_name: BINARY SECURITY AS
@@ -1405,8 +1471,8 @@ companies:
     security_staff_basis: estimate
     security_staff_is_minimum: true
     security_staff_scope: whole-company
-    security_staff_source: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
-    security_staff_note: "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+    security_staff_note: "Guarded estimate by the list maintainer (@ahmadscience) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
     brreg_employees: 5
     brreg_employees_as_of: "2024-10-12"
     delivery: in-house
@@ -1426,7 +1492,7 @@ companies:
     notes: The in-house security staff figure is an estimate by the list author and is not published on the company site. The company is a small specialist boutique, so its registry headcount is a floor for security staff.
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/933452212
         type: registry
@@ -1442,7 +1508,7 @@ companies:
       - url: https://www.binarysecurity.no
         type: company-site
         checked: "2026-09-22"
-      - url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates
         type: estimate
         checked: "2026-09-22"
         note: "In-house security staff: 5. Estimated by the list maintainer, not published by the company."
@@ -1481,7 +1547,7 @@ companies:
     notes: "Registry history: Bull AS -> INTEGRIS AS -> STERIA AS -> SOPRA STERIA AS."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/910909088
         type: registry
@@ -1529,7 +1595,7 @@ companies:
     notes: "Reported to the list as DNV Cyber AS, and there is no such entity: the cyber business sits in DNV AS (org.nr 945748931, Høvik), which is Norwegian-headquartered, while the brand DNV Cyber was formed when DNV absorbed the Finnish consultancy Nixu. The Nixu Norway AS entity from the 2023 edition no longer resolves in the registry, so DNV AS is the entity pinned here."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/
         type: seed-list
@@ -1576,7 +1642,7 @@ companies:
     founded: "2004-06-24"
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/987009713
         type: registry
@@ -1626,7 +1692,7 @@ companies:
       - EMENTOR NORGE AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/976239997
         type: registry
@@ -1670,7 +1736,7 @@ companies:
     founded: "2009-01-05"
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/993606650
         type: registry
@@ -1716,7 +1782,7 @@ companies:
     notes: The Enhetsregisteret homepage field listed www.no.capgemini.com, which does not resolve; the published Norwegian site is www.capgemini.com/no-no/.
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/943574537
         type: registry
@@ -1760,7 +1826,7 @@ companies:
       - KPMG PEAT MARWICK AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/935174627
         type: registry
@@ -1805,7 +1871,7 @@ companies:
       - DELOITTE STATSAUTORISERTE REVISORER AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.deloitte.no
         type: company-site
@@ -1840,7 +1906,7 @@ companies:
       - TEKÅGEL INVEST 258 AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/992037601
         type: registry
@@ -1882,7 +1948,7 @@ companies:
       - ITELLO AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.advania.no
         type: company-site
@@ -1916,7 +1982,7 @@ companies:
       - I-TILITY AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.intility.no
         type: company-site
@@ -1956,7 +2022,7 @@ companies:
       - NETNORDIC COMMUNICATION AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/993062561
         type: registry
@@ -2008,7 +2074,7 @@ companies:
     notes: "Listed as \"EVRY AS\". The rename history on this entity runs EVRY AS -> EVRY NORGE AS -> TIETOEVRY NORWAY AS -> TIETO NORWAY AS, so the EVRY business now reports as Tieto Norway AS. Listed as EVRY AS in the pentest editions; the entity has since been renamed through TIETOEVRY NORWAY AS to TIETO NORWAY AS."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/933012867
         type: registry
@@ -2058,7 +2124,7 @@ companies:
     notes: "Added in the wider cybersecurity pass; the security practice is checked against the company's own service pages, so some capability tags may need confirming."
     verification: partial
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.braathe.no
         type: company-site
@@ -2093,7 +2159,7 @@ companies:
       - BROADNET AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.globalconnect.no
         type: company-site
@@ -2130,7 +2196,7 @@ companies:
     notes: "Listed as \"Visma Consulting AS (now Twoday)\". The registry rename history confirms SIRIUS IT AS -> VISMA SIRIUS AS -> VISMA CONSULTING AS -> TWODAY AS."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/990432368
         type: registry
@@ -2182,7 +2248,7 @@ companies:
     notes: "Acquired by Upheads in December 2022 and now part of Upheads AS (org.nr 980893936, Sandnes), a Norwegian IT and security provider. The pinned org.nr is Upheads (the acquirer), so its founding date and prior names are not Teknograd's. Listed as Teknograd in the pentest editions; Teknograd was acquired by Upheads in December 2022 and the Norwegian entity is Upheads AS."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/
         type: seed-list
@@ -2229,7 +2295,7 @@ companies:
     notes: "Advansia, the Norwegian consultancy known for security advisory work, now trades as part of AFRY and the Norwegian entity is AFRY NORWAY AS. Registry history on this entity runs WR START UP 121 AS, AF REINERTSEN AS, AF ENGINEERING AS. The row is partial: the group's published cyber security offering is the source for the capability tags, the Norwegian-language unit page could not be read, and the Norwegian team should be re-checked after around 50 of its people, including digital and security leadership, left in 2025 and 2026 to found Viljr."
     verification: partial
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://afry.com/en/services/operations-digital-solutions/cyber-security
         type: company-site
@@ -2277,7 +2343,7 @@ companies:
     notes: "Registry history: WM DATA AS -> WM-DATA AS -> LOGICA NORGE AS -> CGI NORGE AS."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/919562390
         type: registry
@@ -2319,7 +2385,7 @@ companies:
     notes: "Reported to the list as Crayon. Crayon Group was acquired by SoftwareOne in July 2025 and the Norwegian company is now SOFTWAREONE AS, still publishing under the Crayon brand at crayon.no. The row is partial because SoftwareOne's own service pages sit behind a bot filter and the Crayon pages are frozen, so the Norwegian security service list comes from those frozen pages and the merger announcement rather than a current page."
     verification: partial
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.softwareone.com/en/media-releases/2025/07/02/softwareone-successfully-completes-crayon-transaction
         type: news
@@ -2359,7 +2425,7 @@ companies:
       - COMPUTAS SOLUTIONS AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://computas.com
         type: company-site
@@ -2401,7 +2467,7 @@ companies:
     notes: "Listed in the 2025 edition as \"Aztek AS (now Accelerate at Iver)\". The registry rename history on this entity confirms AZTEK AS -> IVER ACCELERATE PREPARE AS."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/991319158
         type: registry
@@ -2442,7 +2508,7 @@ companies:
       - MILES IT AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.miles.no
         type: company-site
@@ -2479,7 +2545,7 @@ companies:
     notes: "Registry history: NET WORKS AS -> ITERA NETWORKS AS -> ITERA NORGE AS."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/967948748
         type: registry
@@ -2518,7 +2584,7 @@ companies:
     notes: Norconsult Digital is the IT company in the Norconsult group and states that it is an approved evaluation body with security-cleared consultants; the delivering entity needs confirming.
     verification: partial
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://norconsultdigital.no
         type: company-site
@@ -2548,7 +2614,7 @@ companies:
     founded: "2007-05-14"
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.ikomm.no
         type: company-site
@@ -2586,7 +2652,7 @@ companies:
       - PUNDIT NETWORKS AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://conscia.com/no/
         type: company-site
@@ -2623,7 +2689,7 @@ companies:
       - CSC NORGE AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://dxc.com/no/en
         type: company-site
@@ -2653,7 +2719,7 @@ companies:
     notes: "Founded 2025-09-15 by four former Advansia leaders, including chief executive Rune Hjortdahl, previously director of digital at Advansia, and chaired by Christopher Klepsland, formerly head of Advansia and AFRY Norway. No security staff figure is published and none is recorded: the entity is registered as a building-technical consultancy (71.121) with work across construction, digitalisation and security, so its whole-payroll headcount is not a usable security figure and the column stays ??. The company also publishes a Trondheim office at Kongens gate 16; only the registered Oslo poststed is listed above, because the registry fields are refreshed from Enhetsregisteret."
     verification: partial
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://viljr.no/tjenester
         type: company-site
@@ -2701,7 +2767,7 @@ companies:
       - MOVE SYSTEMS AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://move.no
         type: company-site
@@ -2742,7 +2808,7 @@ companies:
     notes: "Registry history: OPENDOOR TECHNOLOGY AS -> ODC AS -> CAPRA CONSULTING AS."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/988097039
         type: registry
@@ -2784,7 +2850,7 @@ companies:
       - NEW PROACTIMA AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.proactima.no
         type: company-site
@@ -2819,7 +2885,7 @@ companies:
       - DEVOTEAM FORNEBU CONSULTING AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.devoteam.com/no/
         type: company-site
@@ -2854,7 +2920,7 @@ companies:
       - MAZARS AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.mazars.no
         type: company-site
@@ -2889,7 +2955,7 @@ companies:
       - IBM OCEAN NORWAY AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.kyndryl.com/no/en
         type: company-site
@@ -2922,7 +2988,7 @@ companies:
     notes: A broad IT house (Oslo, Bergen and Trondheim) with security as one service line among cloud, network and Microsoft 365 work, so no staff estimate is recorded; reported to the list as a cybersecurity company.
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://blinq.no/tjenester/
         type: company-site
@@ -2961,7 +3027,7 @@ companies:
     notes: An IT operations and support house whose security line is a substantial, separately published part of the business; the registered industry code is data processing and hosting, not security only, so no staff estimate is recorded.
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://eprovider.no/tjenester/it-sikkerhet/
         type: company-site
@@ -3000,7 +3066,7 @@ companies:
     notes: "Listed as \"Knowit Secure AS\", but no entity with that name exists in the registry. Knowit's Norwegian business is spread across several entities (Knowit Insight AS, Knowit Impact AS, Knowit Solutions Norway AS), all registered in Oslo. Needs a community member to confirm which entity the security testing services sit in today. The pentest edition could not find an entity for this name; the business sits in Knowit Cybersecurity & Law AS, which the registry confirms."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/
         type: seed-list
@@ -3042,7 +3108,7 @@ companies:
       - NEUPART AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.northgrc.com/no/
         type: company-site
@@ -3074,7 +3140,7 @@ companies:
     notes: "Added in the wider cybersecurity pass; the security practice is checked against the company's own service pages, so some capability tags may need confirming."
     verification: partial
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.racom.no
         type: company-site
@@ -3102,7 +3168,7 @@ companies:
     notes: US company with a registered Norwegian branch (NUF) in Oslo; the delivery centre is not in Norway.
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/929507282
         type: registry
@@ -3140,7 +3206,7 @@ companies:
       - BOUVET AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.bouvet.no
         type: company-site
@@ -3172,7 +3238,7 @@ companies:
     founded: "2014-09-03"
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.cyberonsecurity.no
         type: company-site
@@ -3202,7 +3268,7 @@ companies:
     notes: "The site is a single-page application whose pages could not be read beyond the published description and page title, so the row is partial: the identity and access management specialisation is confirmed, a fuller service list and any staff figure are not. Reported to the list as a cybersecurity company."
     verification: partial
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.devtec.no/
         type: company-site
@@ -3235,7 +3301,7 @@ companies:
     notes: "Added in the wider cybersecurity pass; the security practice is checked against the company's own service pages, so some capability tags may need confirming."
     verification: partial
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://easywave.io
         type: company-site
@@ -3266,7 +3332,7 @@ companies:
     founded: "2010-11-25"
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/996240630
         type: registry
@@ -3304,7 +3370,7 @@ companies:
     founded: "2024-02-09"
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/933170535
         type: registry
@@ -3335,7 +3401,7 @@ companies:
     founded: "2020-10-20"
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/925894249
         type: registry
@@ -3367,7 +3433,7 @@ companies:
     notes: Registry entity MILY SCIENTIFIC AS, Oslo (formerly PETER NICOLAISEN HOLDING AS). The company website was rate-limited during verification, so the service list needs confirming.
     verification: partial
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://data.brreg.no/enhetsregisteret/api/enheter/926289055
         type: registry
@@ -3403,7 +3469,7 @@ companies:
     notes: "Small specialist consultancy based in Bodo; no Norwegian company registration was matched with confidence, so the row carries the company's own site as its source."
     verification: partial
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://spadeconsulting.no
         type: company-site
@@ -3431,7 +3497,7 @@ companies:
     notes: "A new and very small company: the registry has no employee figure and directory listings put it at one to four people, so the in-house security staff column stays ??. Its registered purpose covers IT work as well as IT security, which would rule out a guarded estimate even if a headcount existed."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.stormitsikkerhet.no/
         type: company-site
@@ -3464,7 +3530,7 @@ companies:
       - ISACHSEN HOLDING AS
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.sunsecurity.no
         type: company-site
@@ -3500,7 +3566,7 @@ companies:
     notes: "Truesec, a Nordic cybersecurity company, acquired Banshie in June 2025. Banshie was a Danish specialist in penetration testing, red teaming and ethical hacking, so it is listed as Nordic rather than Norwegian. The Norwegian presence is now Truesec Norway AS (org.nr 930577294, Oslo); that entity is the acquirer, so its founding date is not Banshie's."
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/
         type: seed-list
@@ -3545,7 +3611,7 @@ companies:
     notes: No Norwegian entity registered; serves Norwegian customers remotely.
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/
         type: seed-list
@@ -3575,7 +3641,7 @@ companies:
     notes: No Norwegian entity registered; serves Norwegian customers remotely.
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/
         type: seed-list
@@ -3607,7 +3673,7 @@ companies:
     notes: No Norwegian entity registered; serves Norwegian customers remotely.
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/
         type: seed-list
@@ -3641,7 +3707,7 @@ companies:
     notes: Cobalt (cobalt.io) is a crowdsourced pentest platform with no Norwegian entity. Note that an unrelated Norwegian company, COBALT AS (org.nr 924359005, Oslo), shares the name and must not be confused with it.
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/
         type: seed-list
@@ -3672,7 +3738,7 @@ companies:
     notes: No Norwegian entity registered; serves Norwegian customers remotely.
     verification: verified
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/
         type: seed-list
@@ -3706,7 +3772,7 @@ companies:
     notes: No Norwegian entity was found; the group serves Norwegian customers from its UK and Nordic offices. The pentest editions listed it among the international providers.
     verification: partial
     last_verified: "2026-09-22"
-    verified_by: "@whatsdd"
+    verified_by: "@ahmadscience"
     sources:
       - url: https://www.nccgroup.com
         type: company-site

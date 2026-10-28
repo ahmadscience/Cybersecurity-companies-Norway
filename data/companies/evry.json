@@ -38,7 +38,7 @@
   "notes": "Listed as \"EVRY AS\". The rename history on this entity runs EVRY AS -> EVRY NORGE AS -> TIETOEVRY NORWAY AS -> TIETO NORWAY AS, so the EVRY business now reports as Tieto Norway AS. Listed as EVRY AS in the pentest editions; the entity has since been renamed through TIETOEVRY NORWAY AS to TIETO NORWAY AS.",
   "verification": "verified",
   "last_verified": "2026-09-22",
-  "verified_by": "@whatsdd",
+  "verified_by": "@ahmadscience",
   "sources": [
     {
       "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933012867",

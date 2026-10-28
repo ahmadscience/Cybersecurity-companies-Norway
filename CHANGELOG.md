@@ -4,6 +4,23 @@ Editions follow the blog-list lineage: the 2023 pentest list, the 2025 update, t
 now the wider cybersecurity directory. Corrections are listed because a directory's corrections are
 its most useful output.
 
+## Unreleased
+
+### Added
+
+- **Digital Trust AS** (org.nr 931464191), contributed by its founder and CEO Michael Markevich
+  ([#2](https://github.com/ahmadscience/Cybersecurity-companies-Norway/pull/2)), who declared the
+  conflict of interest. Its staff count of 4 is the first row carried as a named **attestation**; the
+  registry lists 0 employees, so the figure is the founder's word, labelled as such.
+- Search metadata on the website: canonical URL, schema.org `Dataset` structured data, `robots.txt`
+  and `sitemap.xml`.
+
+### Changed
+
+- Every link now points at the renamed `ahmadscience` GitHub account; the old `whatsdd` GitHub Pages
+  address had stopped resolving.
+- The "last updated" badge in the README renders its date correctly.
+
 ## 2026.1: the cybersecurity edition
 
 The scope widens from penetration testing to cybersecurity and information security, and the headline
