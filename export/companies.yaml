@@ -1,6 +1,6 @@
-generated: "2026-09-22"
-last_verified: "2026-09-22"
-count: 87
+generated: "2026-10-13"
+last_verified: "2026-10-13"
+count: 88
 license: CC BY 4.0
 attribution: Started in 2023 by Ahmad Abdur Rehman (https://ahmad.science/, https://www.linkedin.com/in/ahmadscience/) as a list of penetration testing companies in Norway. Continued as an open dataset covering cybersecurity and information security companies.
 source_repository: https://github.com/ahmadscience/Cybersecurity-companies-Norway
@@ -14,6 +14,72 @@ notes:
   - office_in_norway is false only when no Norwegian entity was found, not when staff are absent.
   - brreg_* fields come from Enhetsregisteret, the Norwegian register of legal entities.
 companies:
+  - id: digital-trust
+    name: Digital Trust
+    legal_name: DIGITAL TRUST AS
+    website: https://digital-trust.no
+    category: norwegian
+    org_nr: "931464191"
+    office_in_norway: true
+    office_cities:
+      - Oslo
+    security_staff: 4
+    security_staff_basis: attestation
+    security_staff_is_minimum: true
+    security_staff_scope: whole-company
+    security_staff_source: https://github.com/ahmadscience/Cybersecurity-companies-Norway/pull/2
+    security_staff_note: "Attested by Michael Markevich (@michael-markevich), founder and CEO of Digital Trust AS, who submitted this row and declared the conflict of interest. Enhetsregisteret lists 0 employees, so the figure rests on the founder's word rather than the registry."
+    brreg_employees: 0
+    brreg_employees_as_of: "2026-10-13"
+    delivery: in-house
+    delivery_source: https://digital-trust.no
+    delivery_note: "Delivery model recorded from the company's own description of how it staffs the work."
+    specialty: A boutique cybersecurity consultancy and security software vendor headquartered in Norway.
+    capabilities:
+      - penetration-testing
+      - red-teaming
+      - purple-teaming
+      - social-engineering
+      - vulnerability-assessment
+      - ai-security
+      - application-security
+      - code-review
+      - devsecops
+      - security-architecture
+      - soc
+      - incident-response
+      - crisis-management
+      - digital-forensics
+      - data-security
+      - cloud-security
+      - security-audit
+      - compliance
+      - risk-management
+      - privacy-gdpr
+      - nis2-dora
+      - vciso
+      - security-training
+      - awareness-training
+      - tabletop-exercises
+    founded: "2023-05-05"
+    verification: verified
+    last_verified: "2026-10-13"
+    verified_by: "@michael-markevich"
+    sources:
+      - url: https://data.brreg.no/enhetsregisteret/api/enheter/931464191
+        type: registry
+        checked: "2026-10-13"
+      - url: https://digital-trust.no
+        type: company-site
+        checked: "2026-10-13"
+      - url: https://thecyberhive.eu/vendors/digital-trust
+        type: other
+        checked: "2026-10-13"
+        note: The ECSO catalogue of the European security tools and services
+      - url: https://github.com/ahmadscience/Cybersecurity-companies-Norway/pull/2
+        type: attestation
+        checked: "2026-10-13"
+        note: In-house security staff of 4 attested by Michael Markevich, founder and CEO (declared conflict of interest).
   - id: mnemonic
     name: Mnemonic
     legal_name: MNEMONIC AS

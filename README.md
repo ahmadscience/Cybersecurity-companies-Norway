@@ -1,10 +1,10 @@
 # Cybersecurity and information security companies in Norway
 
 [![validate](https://github.com/ahmadscience/Cybersecurity-companies-Norway/actions/workflows/validate.yml/badge.svg)](https://github.com/ahmadscience/Cybersecurity-companies-Norway/actions/workflows/validate.yml)
-[![companies](https://img.shields.io/badge/companies-87-blue)](#with-a-physical-office-in-norway)
-[![in-house%20staff%20counts](https://img.shields.io/badge/in--house%20staff%20counts-29-green)](#with-a-physical-office-in-norway)
-[![confirmed](https://img.shields.io/badge/confirmed%20by%20the%20company%20or%20a%20named%20person-none%20yet-lightgrey)](#how-to-read-the-columns)
-[![last updated](https://img.shields.io/badge/last%20updated-2026--09--22-green)](#how-this-list-is-maintained)
+[![companies](https://img.shields.io/badge/companies-88-blue)](#with-a-physical-office-in-norway)
+[![in-house%20staff%20counts](https://img.shields.io/badge/in--house%20staff%20counts-30-green)](#with-a-physical-office-in-norway)
+[![confirmed](https://img.shields.io/badge/confirmed%20by%20the%20company%20or%20a%20named%20person-1-green)](#how-to-read-the-columns)
+[![last updated](https://img.shields.io/badge/last%20updated-2026--10--13-green)](#how-this-list-is-maintained)
 [![license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey)](LICENSE)
 
 > **Started in 2023 by [Ahmad Abdur Rehman](https://ahmad.science/).** The original list covered
@@ -26,7 +26,7 @@ response, cloud and OT security, identity and access, forensics, GRC, privacy an
 Two things make it useful rather than just long. First, every row says how many **in-house security
 staff** the company has, or that nobody has established it, because a lot of Norwegian security work is
 sold by companies that subcontract it to somebody else. Second, every row carries **capability tags**
-so a buyer can filter for what they actually need instead of reading 87 company blurbs.
+so a buyer can filter for what they actually need instead of reading 88 company blurbs.
 
 The list comes first and the reasoning follows: the ordering rules, the caveats and the AI disclosure
 are further down this page.
@@ -35,19 +35,19 @@ are further down this page.
 
 | | | 
 |---|---|
-| Companies listed | **87** |
-| In-house security staff counts known | **29** |
-| Of those, confirmed (published or attested first-hand) | **0** (0 published by the company, 0 attested) |
+| Companies listed | **88** |
+| In-house security staff counts known | **30** |
+| Of those, confirmed (published or attested first-hand) | **1** (0 published by the company, 1 attested) |
 | Labelled estimates, nobody standing behind them | **28** |
 | Staff count still unknown | **58** |
-| Delivering with their own staff | **80** (plus 1 mixed) |
+| Delivering with their own staff | **81** (plus 1 mixed) |
 | Sourced through a partner network | **4** |
-| With an office in Norway | **81** |
-| With a confirmed Norwegian company registration | **79** |
+| With an office in Norway | **82** |
+| With a confirmed Norwegian company registration | **80** |
 | Publishing their own headcount | **13** |
-| With any headcount figure (theirs or the registry's) | **68** |
-| Capability tags in use | **43** (482 tag links) |
-| Last updated | **2026-09-22** |
+| With any headcount figure (theirs or the registry's) | **69** |
+| Capability tags in use | **44** (507 tag links) |
+| Last updated | **2026-10-13** |
 
 ## How to read the columns
 
@@ -92,6 +92,7 @@ are further down this page.
 
 | Company | In-house security staff | Employees | Office in Norway | Delivery | Speciality and capabilities | Org. no. | Last updated |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Digital Trust**<br><sub>Digital Trust AS</sub><br>[digital-trust.no](https://digital-trust.no) | **4+** <sub>attested</sub> | 0 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | A boutique cybersecurity consultancy and security software vendor headquartered in Norway.<br><sub>Penetration testing · Red teaming · Purple teaming <sub>+22</sub></sub> | 931464191<br><sub>founded 2023</sub> | 2026-10-13 |
 | **Mnemonic**<br><sub>Mnemonic AS</sub><br>[www.mnemonic.no](https://www.mnemonic.no) | **391+** <sub>estimated</sub> | 391 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Independent Norwegian security house: offensive testing, 24/7 MDR and threat intelligence.<br><sub>Penetration testing · Red teaming · Vulnerability assessment <sub>+10</sub></sub> | 982089549<br><sub>founded 2000</sub> | 2026-09-22 |
 | **Netsecurity**<br><sub>Netsecurity AS · formerly 1-NET Security AS</sub><br>[www.netsecurity.no](https://www.netsecurity.no) | **172+** <sub>estimated</sub> | 170 (site)<br><sub>registry: 172</sub> | Yes (Oslo) | in-house | Norwegian security house with one of the largest SOCs in the Nordics and its own red team.<br><sub>SOC / MDR · Incident response · Red teaming <sub>+6</sub></sub> | 993856886<br><sub>founded 2009</sub> | 2026-09-22 |
 | **Defendable**<br><sub>Defendable AS · formerly Besec AS</sub><br>[www.defendable.no](https://www.defendable.no) | **95+** <sub>estimated</sub> | 100 (site)<br><sub>registry: 95</sub> | Yes (Oslo) | in-house | Norwegian MDR and incident response house, spun out of BDO Cybersecurity.<br><sub>SOC / MDR · Incident response · Threat intelligence <sub>+5</sub></sub> | 925880140<br><sub>founded 2020</sub> | 2026-09-22 |
