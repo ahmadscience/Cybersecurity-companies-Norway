@@ -21,4 +21,4 @@ guarded estimate) or `crowd-platform` (a researcher pool, not staff). Registry h
 `partner-network` or `unknown`. `capabilities` are the company's own tags and `specialty` is a
 plain-language summary. `office_in_norway` is `false` only when no Norwegian entity was found.
 
-Dataset version: 2026-10-13.
+Dataset version: 2026-10-28.
