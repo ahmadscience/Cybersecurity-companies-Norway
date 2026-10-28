@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ahmadscience.github.io/Cybersecurity-companies-Norway/sitemap.xml

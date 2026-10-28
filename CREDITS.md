@@ -10,7 +10,7 @@ The list was started in 2023 and maintained by the author through three editions
 |---|---|---|
 | [39 pentest firms in Norway](https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/) | February 2023 | The original list, 39 companies, with a short description of each. |
 | [50+ security testing companies in Norway](https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/) | May 2025 | Expanded past 50 companies, split into Norwegian and international providers. |
-| [Pentest-companies-Norway](https://github.com/whatsdd/Pentest-companies-Norway) | 2026 | The 2025 list turned into an open, verifiable dataset with a source behind every claim. |
+| [Pentest-companies-Norway](https://github.com/ahmadscience/Pentest-companies-Norway) | 2026 | The 2025 list turned into an open, verifiable dataset with a source behind every claim. |
 | This repository | 2026 | The dataset widened from penetration testing to cybersecurity and information security, with capability tags, delivery models and confirmed in-house staff counts. |
 
 The importance of that lineage is simple: the hard part was knowing which companies to look at.
@@ -42,7 +42,7 @@ If you reuse this dataset, the licence requires that you credit the author and l
 
 > Started in 2023 by Ahmad Abdur Rehman (https://ahmad.science/) as a list of penetration testing
 > companies in Norway, widened in 2026 to cybersecurity and information security companies.
-> Source: https://github.com/whatsdd/Cybersecurity-companies-Norway
+> Source: https://github.com/ahmadscience/Cybersecurity-companies-Norway
 
 ## Hiring or connecting
 
@@ -57,7 +57,7 @@ sources are the most valuable contribution there is.
 
 <!-- New contributors are added here as their pull requests are merged. -->
 
-- Ahmad Abdur Rehman ([@whatsdd](https://github.com/whatsdd)): dataset, verification, tooling
+- Ahmad Abdur Rehman ([@ahmadscience](https://github.com/ahmadscience)): dataset, verification, tooling
 
 ## Data sources
 

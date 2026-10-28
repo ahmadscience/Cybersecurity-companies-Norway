@@ -6,10 +6,18 @@
 <title>{{TITLE}}</title>
 <meta name="description" content="{{DESCRIPTION}}">
 <meta name="color-scheme" content="light dark">
+<link rel="canonical" href="{{SITE_URL}}">
+<link rel="alternate" type="text/csv" href="export/companies.csv" title="Dataset as CSV">
+<link rel="alternate" type="application/json" href="export/companies.json" title="Dataset as JSON">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="Cybersecurity companies in Norway">
+<meta property="og:url" content="{{SITE_URL}}">
 <meta property="og:title" content="{{TITLE}}">
 <meta property="og:description" content="{{DESCRIPTION}}">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{{JSON_LD}}
+</script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%23040708'/><text x='2' y='12' font-family='monospace' font-size='11' fill='%2339d353'>&gt;_</text></svg>">
 <style>
 {{CSS}}

@@ -32,8 +32,8 @@ TEMPLATE_DIR = ROOT / "templates"
 SITE_DIR = ROOT / "site"
 EXPORT_DIR = ROOT / "export"
 
-REPO = "whatsdd/Cybersecurity-companies-Norway"
-SITE_URL = "https://whatsdd.github.io/Cybersecurity-companies-Norway/"
+REPO = "ahmadscience/Cybersecurity-companies-Norway"
+SITE_URL = "https://ahmadscience.github.io/Cybersecurity-companies-Norway/"
 
 CAPABILITY_LABELS = {
     "penetration-testing": "Penetration testing",
@@ -661,6 +661,8 @@ def main() -> int:
         "GENERATED": generated,
         "REPO": REPO,
         "SITE_URL": SITE_URL,
+        # shields.io splits a badge on single dashes, so a date needs them doubled.
+        "LAST_UPDATED_BADGE": last_updated.replace("-", "--"),
     }
     # A badge that reads "confirmed-0" looks broken rather than honest, so it is
     # only drawn when there is something behind it.
@@ -727,6 +729,35 @@ def main() -> int:
         "cloud and OT security, identity, forensics, GRC and security training. Every row carries its source, "
         "and the in-house staff figure says whether anyone has actually confirmed it.",
     )
+    # Structured data lets search engines and AI answer engines read the page as
+    # a dataset with a licence, a creator and downloadable files.
+    json_ld = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Cybersecurity and information security companies in Norway",
+        "alternateName": ["Cybersikkerhetsselskaper i Norge", "Pentest companies in Norway"],
+        "description": (
+            f"A verified, community-maintained directory of {counts['TOTAL']} cybersecurity and information "
+            "security providers serving Norway, with in-house staff counts, delivery models, capability tags "
+            "and a source behind every claim."
+        ),
+        "url": SITE_URL,
+        "sameAs": f"https://github.com/{REPO}",
+        "keywords": [
+            "cybersecurity companies Norway", "pentest Norway", "penetration testing Norway",
+            "SOC Norway", "information security consultancy Norway", "cybersikkerhet", "sikkerhetstesting",
+        ],
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "isAccessibleForFree": True,
+        "creator": {"@type": "Person", "name": "Ahmad Abdur Rehman", "url": "https://ahmad.science/"},
+        "dateModified": last_updated,
+        "spatialCoverage": {"@type": "Place", "name": "Norway"},
+        "distribution": [
+            {"@type": "DataDownload", "encodingFormat": fmt, "contentUrl": f"{SITE_URL}export/companies.{ext}"}
+            for ext, fmt in (("csv", "text/csv"), ("json", "application/json"), ("yaml", "application/yaml"))
+        ],
+    }
+    site = site.replace("{{JSON_LD}}", json.dumps(json_ld, ensure_ascii=False, indent=2).replace("</", "<\\/"))
     site = site.replace("{{STATS}}", stats)
     site = site.replace("{{CAPABILITY_OPTIONS}}", capability_options)
     ranks = {record["id"]: index for index, record in enumerate(records)}
@@ -816,6 +847,13 @@ Dataset version: {last_updated}.
         EXPORT_DIR / "companies.json": json_text,
         EXPORT_DIR / "companies.yaml": yaml_text,
         EXPORT_DIR / "README.md": exports_readme,
+        SITE_DIR / "robots.txt": f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n",
+        SITE_DIR / "sitemap.xml": (
+            '<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+            f"  <url><loc>{SITE_URL}</loc><lastmod>{last_updated}</lastmod></url>\n"
+            "</urlset>\n"
+        ),
     }
 
     if args.check:

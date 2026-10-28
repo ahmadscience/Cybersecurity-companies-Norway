@@ -23,12 +23,12 @@
   "security_staff_basis": "estimate",
   "security_staff_is_minimum": true,
   "security_staff_scope": "whole-company",
-  "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+  "security_staff_source": "https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
   "security_staff_note": "In-house security staff: 9 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work.",
   "founded": "2002-05-10",
   "verification": "verified",
   "last_verified": "2026-09-22",
-  "verified_by": "@whatsdd",
+  "verified_by": "@ahmadscience",
   "sources": [
     {
       "url": "https://www.junglemap.no/",
@@ -42,7 +42,7 @@
       "checked": "2026-09-22"
     },
     {
-      "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "url": "https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
       "type": "estimate",
       "checked": "2026-09-22",
       "note": "In-house security staff: 9 or more. Guarded estimate by the list maintainer; not published by the company."

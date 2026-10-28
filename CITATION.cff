@@ -17,13 +17,13 @@ authors:
   - family-names: "Abdur Rehman"
     given-names: "Ahmad"
     website: "https://ahmad.science/"
-    alias: "whatsdd"
+    alias: "ahmadscience"
 type: dataset
 version: "2026.1"
 date-released: "2026-09-22"
 license: CC-BY-4.0
-repository-code: "https://github.com/whatsdd/Cybersecurity-companies-Norway"
-url: "https://whatsdd.github.io/Cybersecurity-companies-Norway/"
+repository-code: "https://github.com/ahmadscience/Cybersecurity-companies-Norway"
+url: "https://ahmadscience.github.io/Cybersecurity-companies-Norway/"
 keywords:
   - cybersecurity
   - information security
@@ -45,7 +45,7 @@ preferred-citation:
       website: "https://ahmad.science/"
   doi: ""
   year: 2026
-  url: "https://github.com/whatsdd/Cybersecurity-companies-Norway"
+  url: "https://github.com/ahmadscience/Cybersecurity-companies-Norway"
 references:
   - type: dataset
     title: "Penetration testing and security testing companies in Norway"
@@ -54,7 +54,7 @@ references:
         given-names: "Ahmad"
         website: "https://ahmad.science/"
     year: 2026
-    url: "https://github.com/whatsdd/Pentest-companies-Norway"
+    url: "https://github.com/ahmadscience/Pentest-companies-Norway"
   - type: article
     title: "50+ selskaper som tilbyr sikkerhetstesting (pentest) i Norge - 2025-utgaven"
     authors:

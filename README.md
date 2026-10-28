@@ -1,10 +1,10 @@
 # Cybersecurity and information security companies in Norway
 
-[![validate](https://github.com/whatsdd/Cybersecurity-companies-Norway/actions/workflows/validate.yml/badge.svg)](https://github.com/whatsdd/Cybersecurity-companies-Norway/actions/workflows/validate.yml)
+[![validate](https://github.com/ahmadscience/Cybersecurity-companies-Norway/actions/workflows/validate.yml/badge.svg)](https://github.com/ahmadscience/Cybersecurity-companies-Norway/actions/workflows/validate.yml)
 [![companies](https://img.shields.io/badge/companies-87-blue)](#with-a-physical-office-in-norway)
 [![in-house%20staff%20counts](https://img.shields.io/badge/in--house%20staff%20counts-29-green)](#with-a-physical-office-in-norway)
 [![confirmed](https://img.shields.io/badge/confirmed%20by%20the%20company%20or%20a%20named%20person-none%20yet-lightgrey)](#how-to-read-the-columns)
-[![last updated](https://img.shields.io/badge/last%20updated-2026-09-22-green)](#how-this-list-is-maintained)
+[![last updated](https://img.shields.io/badge/last%20updated-2026--09--22-green)](#how-this-list-is-maintained)
 [![license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey)](LICENSE)
 
 > **Started in 2023 by [Ahmad Abdur Rehman](https://ahmad.science/).** The original list covered
@@ -289,7 +289,7 @@ traced to today's legal entity. Examples currently in the data:
    one whose count is only an estimate, which sorts above one where no count has been established. More
    staff sorts higher within those groups. A crowdsourced researcher pool is not a payroll, so those rows
    sort below every company with staff. Where the number is not known the row shows `??` rather than a
-   guess, and there is an [issue form](https://github.com/whatsdd/Cybersecurity-companies-Norway/issues/new?template=update-company.yml)
+   guess, and there is an [issue form](https://github.com/ahmadscience/Cybersecurity-companies-Norway/issues/new?template=update-company.yml)
    to send it in.
 3. **Employees, the secondary signal.** Where staff counts tie or are equal, total headcount sorts next.
 4. **A missing number is not a zero.** A company with `??` sorts below one with a number purely because no
@@ -326,7 +326,7 @@ different propositions, and neither is ranked by quality here. Use the columns, 
   request; a URL beats a memory every time.
 - **Vendors may correct their own row** and may not delete a competitor's.
 - **Any company can ask to be removed from this list**, no reason required, and the removal is honoured.
-  Open an issue with the [removal form](https://github.com/whatsdd/Cybersecurity-companies-Norway/issues/new?template=remove-company.yml)
+  Open an issue with the [removal form](https://github.com/ahmadscience/Cybersecurity-companies-Norway/issues/new?template=remove-company.yml)
   and the row is deleted from the dataset and from every generated file on merge, with a line in
   [CHANGELOG.md](CHANGELOG.md) recording that a removal happened without dwelling on who asked.
   Being listed is not an accusation and leaving is not an admission of anything.
@@ -336,7 +336,7 @@ different propositions, and neither is ranked by quality here. Use the columns, 
 ## How this list is maintained
 
 - **Data lives in [`data/companies/`](data/companies)**, one JSON file per company. That file is the single
-  source of truth; this README, the [website](https://whatsdd.github.io/Cybersecurity-companies-Norway/) and the CSV/JSON/YAML exports are all generated
+  source of truth; this README, the [website](https://ahmadscience.github.io/Cybersecurity-companies-Norway/) and the CSV/JSON/YAML exports are all generated
   from it, so they cannot disagree.
 - **Every figure carries its source and its basis**, and CI fails the build if a number appears without
   one. `scripts/validate.py` is the enforcement.

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/whatsdd/Cybersecurity-companies-Norway/data/schema.json",
+  "$id": "https://github.com/ahmadscience/Cybersecurity-companies-Norway/data/schema.json",
   "title": "Company record",
   "description": "One cybersecurity or information security provider in the Norway directory. One file per company, named after its id. Fields holding numbers must always carry a source; unknown facts are omitted or null rather than guessed. `scripts/validate.py` is the authoritative enforcement of these rules.",
   "type": "object",
