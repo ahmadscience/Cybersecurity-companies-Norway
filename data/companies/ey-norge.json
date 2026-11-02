@@ -9,11 +9,11 @@
   "office_cities": [
     "Oslo"
   ],
-  "security_staff": 10,
+  "security_staff": 50,
   "security_staff_basis": "estimate",
   "security_staff_is_minimum": true,
   "security_staff_source": "https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
-  "security_staff_note": "In-house security staff: 10 or more. Estimated by the list maintainer, not published by the company.",
+  "security_staff_note": "In-house security staff: 50 or more. Estimated by the list maintainer, not published by the company. Raised from 10 or more on 2026-11-02.",
   "brreg_employees": 1422,
   "brreg_employees_as_of": "2026-09-14",
   "delivery": "in-house",
@@ -35,7 +35,7 @@
   ],
   "notes": "The in-house security staff figure is an estimate by the list author and is not published on the company site. EY is a large multi-service firm, so this figure is a fraction of its Norwegian headcount.",
   "verification": "verified",
-  "last_verified": "2026-09-22",
+  "last_verified": "2026-11-02",
   "verified_by": "@ahmadscience",
   "sources": [
     {
@@ -63,7 +63,7 @@
     {
       "url": "https://github.com/ahmadscience/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
       "type": "estimate",
-      "checked": "2026-09-22",
+      "checked": "2026-11-02",
       "note": "Estimated by the list maintainer (Ahmad Abdur Rehman) from market knowledge. EY publishes no security staff count, so this is a guarded estimate, labelled as one everywhere it appears."
     }
   ]

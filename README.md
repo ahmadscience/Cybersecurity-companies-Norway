@@ -4,7 +4,7 @@
 [![companies](https://img.shields.io/badge/companies-88-blue)](#with-a-physical-office-in-norway)
 [![in-house%20staff%20counts](https://img.shields.io/badge/in--house%20staff%20counts-30-green)](#with-a-physical-office-in-norway)
 [![confirmed](https://img.shields.io/badge/confirmed%20by%20the%20company%20or%20a%20named%20person-2-green)](#how-to-read-the-columns)
-[![last updated](https://img.shields.io/badge/last%20updated-2026--10--28-green)](#how-this-list-is-maintained)
+[![last updated](https://img.shields.io/badge/last%20updated-2026--11--02-green)](#how-this-list-is-maintained)
 [![license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey)](LICENSE)
 
 > **Started in 2023 by [Ahmad Abdur Rehman](https://ahmad.science/).** The original list covered
@@ -47,7 +47,7 @@ are further down this page.
 | Publishing their own headcount | **13** |
 | With any headcount figure (theirs or the registry's) | **69** |
 | Capability tags in use | **44** (507 tag links) |
-| Last updated | **2026-10-28** |
+| Last updated | **2026-11-02** |
 
 ## How to read the columns
 
@@ -100,6 +100,7 @@ are further down this page.
 | **Telenor Cyberdefence**<br><sub>Telenor Cyberdefence AS · formerly NFH 240157 AS, Telenor Cyberdefense AS</sub><br>[www.telenorcyberdefence.com](https://www.telenorcyberdefence.com) | **88+** <sub>estimated</sub> | 88 (registry)<br><sub>registry</sub> | Yes (Fornebu) | in-house | Telenor's security company: 24/7 SOC, incident response, testing and threat intelligence.<br><sub>SOC / MDR · Incident response · Threat intelligence <sub>+5</sub></sub> | 932975424<br><sub>founded 2024</sub> | 2026-09-22 |
 | **Promon**<br><sub>Promon AS</sub><br>[www.promon.no](https://www.promon.no) | **75+** <sub>estimated</sub> | 75 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Application hardening and mobile security house: app shielding, code review and testing.<br><sub>Application security · Mobile security · Secure code review <sub>+2</sub></sub> | 989480138<br><sub>founded 2006</sub> | 2026-09-22 |
 | **Sicra**<br><sub>Sicra AS · formerly WR Start UP 540 AS, Sicra 2 AS</sub><br>[sicra.no](https://sicra.no) | **54+** <sub>estimated</sub> | 54 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Norwegian IT operations house with a SOC service for monitoring and response.<br><sub>SOC / MDR · Incident response · Cloud security <sub>+2</sub></sub> | 932538067<br><sub>founded 2023</sub> | 2026-09-22 |
+| **EY Norge**<br><sub>Ernst & Young AS · formerly Ernst & Young Management Consulting AS</sub><br>[www.ey.com/no_no](https://www.ey.com/no_no) | **50+** <sub>estimated</sub> | 1,422 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Audit and advisory giant whose Norwegian cyber team covers testing, resilience and compliance.<br><sub>Penetration testing · Vulnerability assessment · Security audit <sub>+4</sub></sub> | 976389387<br><sub>founded 1996</sub> | 2026-11-02 |
 | **nLogic**<br><sub>Nlogic AS · formerly Nlogic II AS</sub><br>[www.nlogic.no](https://www.nlogic.no) | **49+** <sub>estimated</sub> | 49 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Norwegian cloud and security provider with 24/7 monitoring and incident response.<br><sub>SOC / MDR · Incident response · Cloud security <sub>+3</sub></sub> | 821678102<br><sub>founded 2018</sub> | 2026-09-22 |
 | **Orange Cyberdefense**<br><sub>Orange Cyberdefense Norway AS · formerly Gateway Security AS, Securelink Norway AS</sub><br>[www.orangecyberdefense.com/no](https://www.orangecyberdefense.com/no) | **43+** <sub>estimated</sub> | 43 (registry)<br><sub>registry</sub> | Yes (Lysaker) | in-house | European security provider with a Norwegian SOC, incident response and pentest team.<br><sub>SOC / MDR · Incident response · Penetration testing <sub>+5</sub></sub> | 981548280<br><sub>founded 2000</sub> | 2026-09-22 |
 | **Gritera Security**<br><sub>Gritera Security AS</sub><br>[gritera.com](https://gritera.com/) | **31+** <sub>estimated</sub> | 31 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Information security advisory house: security governance and GRC, identity and access management, technical security, and crisis management.<br><sub>Risk management · Compliance · NIS2 / DORA readiness <sub>+3</sub></sub> | 832332402<br><sub>founded 2023</sub> | 2026-09-22 |
@@ -113,7 +114,6 @@ are further down this page.
 | **Bsure**<br><sub>Bsure AS</sub><br>[www.bsure.io](https://www.bsure.io/) | **13+** <sub>estimated</sub> | 13 (registry)<br><sub>registry</sub> | Yes (Asker) | in-house | Identity visibility for Microsoft Entra ID and Microsoft 365: every identity, what it can reach, and who is answerable for it.<br><sub>Identity and access management · Compliance</sub> | 929419766<br><sub>founded 2022</sub> | 2026-09-22 |
 | **Fencenordic**<br><sub>Fence AS · formerly Fence Drift AS</sub><br>[fence.no](https://fence.no) | **11+** <sub>estimated</sub> | 11 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Norwegian MDR provider: 24/7 monitoring, incident response and managed detection.<br><sub>SOC / MDR · Incident response · Penetration testing <sub>+5</sub></sub> | 934279220<br><sub>founded 2024</sub> | 2026-09-22 |
 | **O3C**<br><sub>O3 Cyber AS</sub><br>[www.o3c.no](https://www.o3c.no/) | **11+** <sub>estimated</sub> | 11 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Boutique consultancy for cloud, platform and AI security, working with Nordic enterprises and scale-ups.<br><sub>Cloud security · Container / Kubernetes security · Security architecture <sub>+5</sub></sub> | 929553160<br><sub>founded 2022</sub> | 2026-09-22 |
-| **EY Norge**<br><sub>Ernst & Young AS · formerly Ernst & Young Management Consulting AS</sub><br>[www.ey.com/no_no](https://www.ey.com/no_no) | **10+** <sub>estimated</sub> | 1,422 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Audit and advisory giant whose Norwegian cyber team covers testing, resilience and compliance.<br><sub>Penetration testing · Vulnerability assessment · Security audit <sub>+4</sub></sub> | 976389387<br><sub>founded 1996</sub> | 2026-09-22 |
 | **Shift Security**<br><sub>Shift Security AS</sub><br>[shiftsecurity.no](https://shiftsecurity.no) | **10+** <sub>estimated</sub> | 10 (registry)<br><sub>registry</sub> | Yes (Sætre) | in-house | Zero Trust and secure networking specialist: microsegmentation, SASE and managed security.<br><sub>Network security · Security architecture · Cloud security <sub>+2</sub></sub> | 933831922<br><sub>founded 2024</sub> | 2026-09-22 |
 | **IndyKite**<br><sub>Indykite Norway AS</sub><br>[www.indykite.com](https://www.indykite.com/) | **9+** <sub>estimated</sub> | 9 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Identity and authorisation platform that controls what people, services and AI agents are allowed to reach at runtime.<br><sub>Identity and access management · AI security</sub> | 926277340<br><sub>founded 2020</sub> | 2026-09-22 |
 | **Junglemap**<br><sub>Junglemap AS · formerly Junglemap AS, NKI Junglemap AS</sub><br>[www.junglemap.no](https://www.junglemap.no/) | **9+** <sub>estimated</sub> | 9 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Security awareness house: short recurring courses on cyber security, privacy, NIS2 and secure coding, with phishing simulations.<br><sub>Awareness training · Security training · Privacy / GDPR <sub>+1</sub></sub> | 984590423<br><sub>founded 2002</sub> | 2026-09-22 |
@@ -205,6 +205,8 @@ traced to today's legal entity. Examples currently in the data:
 - **Telenor Cyberdefence**: *NFH 240157 AS → TELENOR CYBERDEFENSE AS → TELENOR CYBERDEFENCE AS*
   - Listed as "Watchcom (now Telenor Cyberdefence)". Telenor acquired Watchcom, and this entity carries the rename history TELENOR CYBERDEFENSE AS → TELENOR CYBERDEFENCE AS.
 - **Sicra**: *WR START UP 540 AS → SICRA 2 AS → SICRA AS*
+- **EY Norge**: *ERNST & YOUNG MANAGEMENT CONSULTING AS → ERNST & YOUNG AS*
+  - The in-house security staff figure is an estimate by the list author and is not published on the company site. EY is a large multi-service firm, so this figure is a fraction of its Norwegian headcount.
 - **nLogic**: *NLOGIC II AS → NLOGIC AS*
 - **Orange Cyberdefense**: *GATEWAY SECURITY AS → SECURELINK NORWAY AS → ORANGE CYBERDEFENSE NORWAY AS*
   - Registry history: SECURELINK NORWAY AS → GATEWAY SECURITY AS → ORANGE CYBERDEFENSE NORWAY AS.
@@ -217,8 +219,6 @@ traced to today's legal entity. Examples currently in the data:
   - Registry entity SEMAPHORE CONSULTING PARTNERS AS, Stabekk, whose former name was SCIO AS. A separate SEMAPHORE AS (org.nr 924505214, Oslo) also exists. Which one delivers the security testing in the list should be confirmed.
 - **Fencenordic**: *FENCE DRIFT AS → FENCE AS*
   - Listed as "Fencenordic"; the company now operates as Fence and this entity is the Norwegian legal entity (formerly FENCE DRIFT AS).
-- **EY Norge**: *ERNST & YOUNG MANAGEMENT CONSULTING AS → ERNST & YOUNG AS*
-  - The in-house security staff figure is an estimate by the list author and is not published on the company site. EY is a large multi-service firm, so this figure is a fraction of its Norwegian headcount.
 - **Junglemap**: *JUNGLEMAP AS → NKI JUNGLEMAP AS → JUNGLEMAP AS*
   - Awareness training is the whole business, so the Norwegian entity's registry headcount is usable as a guarded estimate. The brand belongs to the Swedish group Junglemap AB; this row is the Norwegian company that sells and supports it here, and it is grouped as nordic for that reason.
 - **Binary Security**: *BINARY SECURITY B AS → BINARY SECURITY AS*

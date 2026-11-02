@@ -22,6 +22,7 @@ its most useful output.
 - **Experis: 40+ security staff, now attested rather than estimated.** The figure is vouched for
   first-hand by the list maintainer, who works at Experis; the conflict of interest is disclosed in the
   row. As a confirmed count it now sorts first, ahead of Digital Trust and every estimate.
+- **EY Norge: 10+ estimated security staff raised to 50+**, still a labelled estimate by the maintainer.
 - Every link now points at the renamed `ahmadscience` GitHub account; the old `whatsdd` GitHub Pages
   address had stopped resolving.
 - The "last updated" badge in the README renders its date correctly.
