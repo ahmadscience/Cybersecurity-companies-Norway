@@ -719,8 +719,9 @@ def main() -> int:
     site = site.replace("{{HEADLINE}}", "Cybersecurity companies in Norway")
     site = site.replace(
         "{{DESCRIPTION}}",
-        f"A verified, community-maintained directory of {counts['TOTAL']} cybersecurity and information "
-        "security providers serving Norway, with in-house staff counts, delivery models, capability tags and sources.",
+        # Kept under about 155 characters so search results show it whole.
+        f"Open directory of {counts['TOTAL']} cybersecurity companies in Norway: in-house security staff, "
+        "capabilities and a source behind every claim.",
     )
     site = site.replace(
         "{{LEDE}}",
