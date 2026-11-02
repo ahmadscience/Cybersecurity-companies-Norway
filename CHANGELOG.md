@@ -14,6 +14,8 @@ its most useful output.
   registry lists 0 employees, so the figure is the founder's word, labelled as such.
 - Search metadata on the website: canonical URL, schema.org `Dataset` structured data, `robots.txt`
   and `sitemap.xml`.
+- A social preview image, so links shared on LinkedIn and elsewhere show a card, and a shorter page
+  description that search results show in full.
 
 ### Changed
 
